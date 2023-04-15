@@ -29,16 +29,6 @@ const posts = [
 ]
 
 
-/*
-let name = posts[0].name
-let username = posts[0].username
-let location = posts[0].location
-let avatar = posts[0].avatar
-let post = posts[0].post
-let comment = posts[0].comment
-let likes = posts[0].likes
-*/
-
 /* HTML elements */
 
 const avatarImg = document.getElementById("avatar-img")
@@ -64,11 +54,16 @@ let currentPostNumber = Math.floor(Math.random() * posts.length)
 
 setPost(currentPostNumber)
 
-avatarImg.addEventListener("click", function(){
+function changePost(){
     if(currentPostNumber === posts.length -1){
         currentPostNumber = 0
     }else{
         currentPostNumber++
     }
     setPost(currentPostNumber)
-})
+}
+
+function addLike(){
+    likesCount.innerHTML = ++posts[currentPostNumber].likes + " likes"
+}
+
