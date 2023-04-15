@@ -3,3 +3,25 @@ html, body {
     padding: 0;
 }
 
+header,
+main,
+footer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: aquamarine;
+}
+main {
+    background-color: coral;
+}
+footer {
+    background-color: goldenrod;
+}
+
