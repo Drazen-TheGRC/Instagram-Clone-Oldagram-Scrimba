@@ -42,6 +42,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 .icon {
     width: 36px;
@@ -68,8 +69,7 @@ footer {
     width: 100%;
 }
 
-h1, h2 {
-    margin-top: 10;
+h3 {
     padding: 0;
 }
 p {
