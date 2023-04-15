@@ -5,28 +5,74 @@ html, body {
 
 .container {
     width: 375px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 50px auto;
 }
 
 header,
 main,
 footer {
+    box-sizing:border-box;
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    display: flex;
 }
 
 header {
     background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
 }
 main {
     background-color: coral;
+    flex-direction: column;
 }
 footer {
     background-color: goldenrod;
+    flex-direction: column;
 }
 
-img {
-    margin: 0px;
-    padding: 0px;
+.avatar-el {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon {
+    width: 36px;
+    padding: 10px 10px 10px 0px;
+}
+
+#img-logo {
+    width: 160px;
+}
+#img-user {
+    width: 60px;
+    border-radius: 100px;
+}
+
+#img-avatar {
+    width: 60px;
+    border-radius: 100px;
+    padding: 0;
+}
+
+
+
+#img-post {
     width: 100%;
+}
+
+h1, h2 {
+    margin-top: 10;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding-bottom: 10px;
 }
