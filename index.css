@@ -74,13 +74,13 @@ footer {
     border-radius: 100px;
 }
 
-#img-avatar {
+#avatar-img {
     width: 60px;
     border-radius: 100px;
     padding: 0;
 }
 
-#img-post {
+#post-img {
     width: 100%;
 }
 
@@ -94,7 +94,7 @@ p {
     padding-bottom: 10px;
 }
 #avatar-name,
-#comment-name,
+#username,
 #likes-count {
     
     font-weight: 700;
